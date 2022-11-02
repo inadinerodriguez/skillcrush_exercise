@@ -28,3 +28,17 @@ const hours = document.querySelector(".contact p");
 //console.log(hours);
 hours.style.border = "1px solid #d45bb9";
 hours.style.padding = "1em";
+
+
+// Change Instagram icon color
+var instagram = document.querySelector(".fa-instagram");
+instagram.style.color = "tomato";
+
+// Add background image
+var foodImage = document.querySelector(".food");
+//console.log(foodImage);
+foodImage.style.backgroundImage = "url('../img/victoria-shes-unsplash.jpg')";
+
+// Dotted border-bottom around h1
+var noms = document.querySelector("h1");
+noms.style.borderBottom = "4px dotted tomato";
